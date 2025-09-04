@@ -7,12 +7,12 @@ const Projects: React.FC = () => {
             title: "Cute3D",
             description: "A 3D maze inspired by Wolfenstein 3D written in C",
             // imageUrl: cube3d
-        }
+        },
         {
             title: "ft_irc",
             description: "An internet relay chat where you can create groups, set discussion topics and message individuals in different terminals."
             // imageUrl: ft_irc
-        }
+        },
         {
             title: "So_Long Taylor's Version",
             description: "A 2D game inspired by PacMan where Taylor has to collect all her records. Written in C"
