@@ -3,14 +3,16 @@ import "./Header.css"
 
 const Header: React.FC = () => {
     return (
-        <div>
-            <h1>Alice Li Maunumäki</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
+        <header className="header">
+            <div className="header-content">
+                <h1 className="name">Alice Li Maunumäki</h1>
+                <nav className="nav">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
     )
 }
 

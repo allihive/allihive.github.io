@@ -5,6 +5,7 @@ const About: React.FC = () => {
     return (
         <section id="about" className="about">
             <div className="about-content">
+                <div className="about-text">
                 <h2>About Me</h2>
                 <p>
                     Hello, my name is Alice!
@@ -15,6 +16,7 @@ const About: React.FC = () => {
                 <p>
                     When I'm not coding, I enjoy knitting, crocheting, fashion styling, swimming in the Baltic Sea, and biking!
                 </p>
+                </div>
                 {/* <div className="about-image">
                     <img src={} alt="Alice's face"></img>
                 </div> */}
