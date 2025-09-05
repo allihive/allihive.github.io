@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Contact.css"
 import toast from "react-hot-toast"
+import { PiLinkedinLogoThin } from "react-icons/pi";
+import { PiGithubLogoThin } from "react-icons/pi";
 
 const Contact: React.FC = () => {
 	const [name, setName] = useState("");
@@ -21,38 +23,46 @@ const Contact: React.FC = () => {
 		<section id="contact" className="contact">
 			<div className="contact-content">
 				<h2>Contact Me</h2>
-				<form onSubmit={handleSubmit}>
-					<div className="form-group">
-						<label htmlFor="name">Name</label>
-						<input
-							type="text"
-							id="name"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-							required
-							/>
-					</div>
-					<div className="form-group">
-						<label htmlFor="email">Email</label>
-						<input
-							type="email"
-							id="email"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-							required
-							/>
-					</div>
-					<div className="form-group">
-						<label htmlFor="message">Message</label>
-						<textarea
-							id="name"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-							required
-							/>
-					</div>
-					<button type="submit">Send Message</button>
-				</form>
+				<div className="contact-components">
+					<form onSubmit={handleSubmit}>
+						<div className="form-group">
+							<label htmlFor="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								value={name}
+								onChange={(e) => setName(e.target.value)}
+								required
+								/>
+						</div>
+						<div className="form-group">
+							<label htmlFor="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								value={email}
+								onChange={(e) => setEmail(e.target.value)}
+								required
+								/>
+						</div>
+						<div className="form-group">
+							<label htmlFor="message">Message</label>
+							<textarea
+								id="message"
+								value={msg}
+								onChange={(e) => setMsg(e.target.value)}
+								required
+								/>
+						</div>
+						<button type="submit">Send Message</button>
+					</form>
+					<a href="https://www.linkedin.com/in/alicelimaunumaki">
+						<PiLinkedinLogoThin className="icons"/>
+					</a>
+					<a href="https://github.com/allihive">
+						<PiGithubLogoThin className="icons"/>
+					</a>
+				</div>
 			</div>
 		</section>
 	)

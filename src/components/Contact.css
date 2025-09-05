@@ -4,5 +4,47 @@
 }
 
 .contact-content {
-	
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.contact-components {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 6rem;
+}
+
+.contact-content h2 {
+	font-size: 2rem;
+	color: #333;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.form-group {
+	margin-bottom: 1rem;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: #333;
+	font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+
+.icons {
+	font-size: 4rem;
+	color: #333;
+	justify-content: center;
+
 }
