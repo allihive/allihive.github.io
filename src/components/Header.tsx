@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Header.css"
+import Logo from "../assets/Logo.svg"
 
 const Header: React.FC = () => {
     return (
         <header className="header">
             <div className="header-content">
-                <h1 className="name">Alice Li Maunumäki</h1>
                 <nav className="nav">
                     <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects">Software/Web</a>
+                    <img width="150px" className="filter-image" src={Logo} alt="ALM logo"/>
+                    <a href="uxProjects">UX/UI</a>
                     <a href="#contact">Contact</a>
                 </nav>
             </div>

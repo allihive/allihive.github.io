@@ -1,15 +1,16 @@
 .header {
-    background-color: #223d43;
-    color: #fff;
+    background-color: #FFFBFB;
+    color: #5C6B7B;
     padding: 1rem 2rem;
+    width: 100%
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+      height: 100%;            /* fill the header height */
+    line-height: 80px;  
+    width: 100%;
+    margin: 0;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 .name {
@@ -19,10 +20,11 @@
 
 .nav {
     display: flex;
+    justify-content: space-around;
     gap: 1rem;
 }
 .nav a {
-    color: #fff;
+    color: #5C6B7B;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -30,4 +32,14 @@
 
 .nav a:hover {
     color: #ddd;
+}
+
+.filter-image {
+    filter: invert(9%) sepia(71%) saturate(1168%) hue-rotate(328deg) brightness(98%) contrast(104%);
+}
+
+@media (max-wdith: 768px) {
+    .nav {
+        flex-direction: column;
+    }
 }
