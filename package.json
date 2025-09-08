@@ -1,13 +1,17 @@
+
 {
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://allihive.github.io/allihive.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -30,12 +34,5 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
-  },
-  // {
-  //   "homepage": "https://allihive.github.io/",
-  //   "scripts": {
-  //     "predeploy": "npm run build",
-  //     "deploy": "gh-pages -d build",
-  //   }
-  // }
+  }
 }

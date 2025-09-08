@@ -4,7 +4,7 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import { Toaster } from "react-hot-toast"
-//import "./App.css"
+import "./App.css"
 
 
 const App: React.FC = () => {
