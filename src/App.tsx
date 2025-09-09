@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./components/Header"
 import About from "./components/About"
 import Projects from "./components/Projects"
+import UxProjects from "./components/UxProjects"
 import Contact from "./components/Contact"
 import { Toaster } from "react-hot-toast"
 import "./App.css"
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <main>
         <About/>
         <Projects/>
+        <UxProjects/>
         <Contact/>
       </main>
       <footer>
