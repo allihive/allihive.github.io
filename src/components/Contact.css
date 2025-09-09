@@ -1,6 +1,6 @@
 .contact {
 	padding: 4rem 2rem;
-	background-color: #94a3a6;
+	background-color: #FFFBFB;
 }
 
 .contact-content {
@@ -18,10 +18,12 @@
 
 .contact-content h2 {
 	font-size: 2rem;
-	color: #333;
+	color: #3B0C0C;
 	margin-bottom: 1rem;
 	text-align: center;
+	font-family: 'Aboreto', system-ui;
 }
+
 .form-group {
 	margin-bottom: 1rem;
 }
@@ -31,6 +33,7 @@
 	margin-bottom: 0.5rem;
 	color: #333;
 	font-weight: bold;
+	font-family: 'Aboreto', system-ui;
 }
 
 .form-group input,

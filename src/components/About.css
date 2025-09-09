@@ -1,6 +1,7 @@
 .about {
     padding: 4rem 2rem;
-    background-color: #94a3a6;
+    background-color: #FFFBFB;
+    width: 100%;
 }
 
 .about-content {
@@ -19,16 +20,19 @@
 
 .about-text h2 {
     font-size: 2rem;
-    color: #333;
+    color: #3B0C0C;
     margin-bottom: 1rem;
+    font-family: 'Aboreto', system-ui;
 }
 
 .about-text p {
     font-size: 1rem;
-    color:#333;
+    color:#5C6B7B;
     line-height: 1.6;
     margin-bottom: 1rem;
+    font-family: 'Nanum Myeongjo', serif;
 }
+
 
 /* .about-image {
     flex: 0 0 300px;

@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fontsource/aboreto": "^5.2.6",
     "@fontsource/petit-formal-script": "^5.2.6",
     "bootstrap": "^5.3.8",
     "react": "^19.1.1",

@@ -1,6 +1,6 @@
 .projects {
 	padding: 4rem 2rem;
-	background-color: #94a3a6;
+	background-color: #FFFBFB;
 }
 
 .projects-content {
@@ -10,16 +10,18 @@
 
 .projects-content h2 {
 	font-size: 2rem;
-	color: #333;
+	color: #3B0C0C;
 	margin-bottom: 2rem;
 	text-align: center;
+	font-family: 'Aboreto', system-ui;
 }
 
 .projects-content h3 {
 	font-size: 1.5rem;
-	color: #333;
+	color: #5C6B7B;
 	margin-bottom: 1rem;
 	text-align: center;
+	font-family: 'Aboreto', system-ui;
 }
 
 .project-grid {
@@ -28,8 +30,14 @@
 	gap: 2rem;
 }
 
+.project-card-link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+
 .project-card {
-	background-color: antiquewhite;
+	background-color: #F5FAFF;
 	border-radius: 8px;
 	overflow: hidden;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,15 +56,16 @@
 
 .project-card h3 {
 	font-size: 1.25rem;
-	color: #333;
+	color: #5C6B7B;
 	margin: 1rem;
 }
 
 .project-card p {
 	font-size: 1rem;
-	color: #333;
+	color: #5C6B7B;
 	margin: 0 1rem 1rem;
 	line-height: 1.5;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 @media (max-width: 768px) {
