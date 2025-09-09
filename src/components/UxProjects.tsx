@@ -1,24 +1,27 @@
 import React from "react"
 import "./Projects.css"
+import Amp from "../assets/Amp.png"
+import swt from "../assets/swt.png"
+import thingtesting from "../assets/thingtesting.png"
 
 const UxProjects: React.FC = () => {
 	const Projects = [
 		{
 			title: "Access Map Plans: Final Project",
 			description: "Designed an app for those who navigate the city with strollers",
-			//imageUrl: Amp,
+			imageUrl: Amp,
 			link: "https://www.figma.com/proto/MGfBBJClwwdEjPb46A0eKo/Portfolio?node-id=20-12322&p=f&t=3C5dOLRYh4LAJy4L-8&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=12%3A12069&hotspot-hints=0&hide-ui=1"
 		},
 		{
 			title: "Stockholm Water Technology: Cohesive UI",
 			description: "Upgrading existing UI to a more cohesive design to create a striking website",
-			//imageUrl: swt,
+			imageUrl: swt,
 			link: "https://www.figma.com/proto/MGfBBJClwwdEjPb46A0eKo/Portfolio?node-id=12-12099&p=f&t=3C5dOLRYh4LAJy4L-8&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=12%3A12069&hotspot-hints=0&hide-ui=1"
 		},
 		{
 			title: "ThingTesting: Conversion Rate",
 			description: "Figuring how to convert casual users to active users on the platform with real data",
-			//imageUrl: thingtesting,
+			imageUrl: thingtesting,
 			link: "https://www.figma.com/proto/MGfBBJClwwdEjPb46A0eKo/Portfolio?node-id=20-12378&p=f&t=3C5dOLRYh4LAJy4L-8&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=12%3A12069&hotspot-hints=0&hide-ui=1"
 		}
 	]
@@ -42,9 +45,15 @@ const UxProjects: React.FC = () => {
 						className="project-card-link"
 						>
 							<div key={index} className="project-card">
-							{/* <img src={project.imageUrl} alt={project.title} /> */}
-                             <h3>{project.title}</h3>
-                            <p>{project.description}</p>
+								<div className="project-card-content">
+									<div className="card-text">
+										<h3>{project.title}</h3>
+										<p>{project.description}</p>
+									</div>
+									<div className="card-img">
+										<img src={project.imageUrl} alt={project.title} />
+									</div>
+								</div>
 							</div>
 					</a>
 				))}
