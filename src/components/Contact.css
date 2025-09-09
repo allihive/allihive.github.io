@@ -1,6 +1,7 @@
 .contact {
 	padding: 4rem 2rem;
 	background-color: #FFFBFB;
+	width: 100%
 }
 
 .contact-content {
@@ -31,7 +32,7 @@
 .form-group label {
 	display: block;
 	margin-bottom: 0.5rem;
-	color: #333;
+	color: #5C6B7B;
 	font-weight: bold;
 	font-family: 'Aboreto', system-ui;
 }
@@ -40,14 +41,16 @@
 .form-group textarea {
 	width: 100%;
 	padding: 0.75rem;
-	border: 1px solid;
-	border-radius: 4px;
+	border: 1.5px solid #3B0C0C;
+	border-radius: 10px;
 	font-size: 1rem;
+	background-color: #5C6B7B;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 .icons {
 	font-size: 4rem;
-	color: #333;
+	color: #5C6B7B;
 	justify-content: center;
 
 }

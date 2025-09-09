@@ -17,6 +17,9 @@ const App: React.FC = () => {
         <Projects/>
         <Contact/>
       </main>
+      <footer>
+        <p>© Alice Li Maunumäki. ALl rights reserved.</p>
+      </footer>
       </div>
   )
 }

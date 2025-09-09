@@ -29,6 +29,11 @@ const Projects: React.FC = () => {
             // imageUrl: ft_transcendence
             link: "https://github.com/allihive/ft_transcendence"
         },
+        {
+            title: "My Portfolio",
+            description: "See how I created my website with React, Vite, Typescript and Figma!",
+            link: "https://github.com/allihive/allihive.github.io"
+        }
     ]
     return (
         <section id="projects" className="projects">
