@@ -54,9 +54,15 @@ const Projects: React.FC = () => {
                             rel="noopener noreferrer"
                             className="project-card-link">
                         <div key={index} className="project-card">
-                             <img src={project.imageUrl} alt={project.title} />
-                             <h3>{project.title}</h3>
-                            <p>{project.description}</p>
+                             <div className="project-card-content">
+									<div className="card-text">
+										<h3>{project.title}</h3>
+										<p>{project.description}</p>
+									</div>
+									<div className="card-img">
+										<img src={project.imageUrl} alt={project.title} />
+									</div>
+								</div>
                         </div>
                         </a>
                     ))}
@@ -70,9 +76,15 @@ const Projects: React.FC = () => {
                             rel="noopener noreferrer"
                             className="project-card-link">
                         <div key={index} className="project-card">
-                            <img src={project.imageUrl} alt={project.title} />
-                            <h3>{project.title}</h3>
-                            <p>{project.description}</p>
+                            <div className="project-card-content">
+									<div className="card-text">
+										<h3>{project.title}</h3>
+										<p>{project.description}</p>
+									</div>
+									<div className="card-img">
+										<img src={project.imageUrl} alt={project.title} />
+									</div>
+								</div>
                         </div>
                         </a>
                     ))}
