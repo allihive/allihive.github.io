@@ -1,6 +1,9 @@
 import React from "react"
 import so_long from "../assets/so_long.gif"
 import cub3d from "../assets/cub3d.gif"
+import ft_irc from "../assets/ft_irc.gif"
+import ft_transcendence from "../assets/login_transcendence.gif"
+
 import "./Projects.css"
 
 
@@ -15,7 +18,7 @@ const Projects: React.FC = () => {
         {
             title: "ft_irc",
             description: "An internet relay chat where you can create groups, set discussion topics and message individuals in different terminals.",
-            // imageUrl: ft_irc
+            imageUrl: ft_irc,
             link:"https://github.com/allihive/ft_irc"
         },
         {
@@ -29,7 +32,7 @@ const Projects: React.FC = () => {
         {
             title: "ft_transcendence",
             description: "A full-stack project based on the Pong game where users can create tournaments, add friends, play against friends and chat!",
-            // imageUrl: ft_transcendence
+            imageUrl: ft_transcendence,
             link: "https://github.com/allihive/ft_transcendence"
         },
         {
@@ -51,7 +54,7 @@ const Projects: React.FC = () => {
                             rel="noopener noreferrer"
                             className="project-card-link">
                         <div key={index} className="project-card">
-                             {/* <img src={project.imageUrl} alt={project.title} /> */}
+                             <img src={project.imageUrl} alt={project.title} />
                              <h3>{project.title}</h3>
                             <p>{project.description}</p>
                         </div>
@@ -67,7 +70,7 @@ const Projects: React.FC = () => {
                             rel="noopener noreferrer"
                             className="project-card-link">
                         <div key={index} className="project-card">
-                            {/* <img src={project.imageUrl} alt={project.title} /> */}
+                            <img src={project.imageUrl} alt={project.title} />
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
                         </div>
