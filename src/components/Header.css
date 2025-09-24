@@ -2,13 +2,13 @@
     background-color: #FFFBFB;
     color: #5C6B7B;
     padding: 1rem 2rem;
-    width: 100%
+    /* width: 100% */
 }
 
 .header-content {
     height: 100%;            /* fill the header height */
     line-height: 80px;  
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     font-family: 'Petit Formal Script', cursive;
 }

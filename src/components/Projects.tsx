@@ -1,4 +1,6 @@
 import React from "react"
+import so_long from "../assets/so_long.gif"
+import cub3d from "../assets/cub3d.gif"
 import "./Projects.css"
 
 
@@ -7,7 +9,7 @@ const Projects: React.FC = () => {
         {
             title: "Cute3D",
             description: "A 3D maze inspired by Wolfenstein 3D written in C",
-            // imageUrl: cube3d
+            imageUrl: cub3d,
             link: "https://github.com/allihive/cub3d"
         },
         {
@@ -19,7 +21,7 @@ const Projects: React.FC = () => {
         {
             title: "So_Long Taylor's Version",
             description: "A 2D game inspired by PacMan where Taylor has to collect all her records. Written in C",
-            // imageUrl: so_long
+            imageUrl: so_long,
             link: "https://github.com/allihive/so_long"
         }
     ]

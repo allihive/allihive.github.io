@@ -1,7 +1,7 @@
 .projects {
 	padding: 4rem 2rem;
 	background-color: #FFFBFB;
-	width: 100%;
+	/* width: 100%; */
 }
 
 .projects-content {
@@ -62,7 +62,7 @@
 }
 
 .project-card img {
-	width: 100%;
+	/* width: 100%; */
 	height: 200px;
 	object-fit: cover;
 	border: 1px solid #3B0C0C;
