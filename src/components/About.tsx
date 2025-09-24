@@ -17,9 +17,6 @@ const About: React.FC = () => {
                     When I'm not coding, I enjoy knitting, crocheting, fashion styling, swimming in the Baltic Sea, and biking!
                 </p>
                 </div>
-                {/* <div className="about-image">
-                    <img src={} alt="Alice's face"></img>
-                </div> */}
             </div>
         </section>
     )
