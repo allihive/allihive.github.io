@@ -9,7 +9,7 @@ const Header: React.FC = () => {
                 <nav className="nav">
                     <a href="#about">About</a>
                     <a href="#projects">Software/Web</a>
-                    <img width="150px" className="filter-image" src={Logo} alt="ALM logo"/>
+                    <img width="150px" src={Logo} alt="ALM logo"/>
                     <a href="#uxProjects">UX/UI</a>
                     <a href="#contact">Contact</a>
                 </nav>

@@ -41,7 +41,7 @@
 .form-group textarea {
 	/* width: 100%; */
 	padding: 0.75rem;
-	border: 1.5px solid 859B79;
+	border: 1.5px solid #859B79;
 	border-radius: 10px;
 	font-size: 1rem;
 	background-color: #b5a48c;
@@ -53,4 +53,14 @@
 	color: #b5a48c;
 	justify-content: center;
 
+}
+
+@media (max-width: 480px) {
+	.contact-components {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 6rem;
+}
 }

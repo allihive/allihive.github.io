@@ -34,10 +34,6 @@
     color: #ddd;
 }
 
-.filter-image {
-    filter: invert(9%) sepia(71%) saturate(1168%) hue-rotate(328deg) brightness(98%) contrast(104%);
-}
-
 @media (max-wdith: 768px) {
     .nav {
         flex-direction: column;
