@@ -63,4 +63,8 @@
 	align-items: center;
 	gap: 6rem;
 }
+	.form-group input,
+	.form-group textarea {
+		width: 100%;
+	}
 }
