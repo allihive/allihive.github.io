@@ -34,8 +34,17 @@
     color: #ddd;
 }
 
-@media (max-wdith: 768px) {
-    .nav {
-        flex-direction: column;
-    }
+@media (max-width: 480px) {
+	.nav {
+		display: flex;
+		justify-content: center;
+		gap: 0;
+	}
+    .nav a {
+		display: none;
+	}
+	.nav img {
+		display: block;
+		width: 120px;
+	}
 }
