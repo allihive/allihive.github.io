@@ -1,6 +1,6 @@
 .contact {
 	padding: 4rem 2rem;
-	background-color: #FFFBFB;
+	background-color: #1f1214;
 	/* width: 100% */
 }
 
@@ -19,7 +19,7 @@
 
 .contact-content h2 {
 	font-size: 2rem;
-	color: #3B0C0C;
+	color: #859B79;
 	margin-bottom: 1rem;
 	text-align: center;
 	font-family: 'Aboreto', system-ui;
@@ -32,7 +32,7 @@
 .form-group label {
 	display: block;
 	margin-bottom: 0.5rem;
-	color: #5C6B7B;
+	color: #b5a48c;
 	font-weight: bold;
 	font-family: 'Aboreto', system-ui;
 }
@@ -41,16 +41,16 @@
 .form-group textarea {
 	/* width: 100%; */
 	padding: 0.75rem;
-	border: 1.5px solid #3B0C0C;
+	border: 1.5px solid 859B79;
 	border-radius: 10px;
 	font-size: 1rem;
-	background-color: #5C6B7B;
+	background-color: #b5a48c;
 	font-family: 'Nanum Myeongjo', serif;
 }
 
 .icons {
 	font-size: 4rem;
-	color: #5C6B7B;
+	color: #b5a48c;
 	justify-content: center;
 
 }

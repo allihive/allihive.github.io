@@ -1,6 +1,12 @@
+/*  background OG: #FFFBFB #1f1214 
+	title OG: #859B79 859B79 
+	text OG: #5C6B7B #b5a48c
+	card OG: 
+*/
+
 .about {
     padding: 2rem 1rem;
-    background-color: #FFFBFB;
+    background-color: #1f1214;
 	display: flex;
 	align-items: center;
     /* width: 100%; */
@@ -22,14 +28,14 @@
 
 .about-text h2 {
     font-size: 2rem;
-    color: #3B0C0C;
+    color: #859B79;
     margin-bottom: 1rem;
     font-family: 'Aboreto', system-ui;
 }
 
 .about-text p {
     font-size: 1rem;
-    color:#5C6B7B;
+    color:#b5a48c;
     line-height: 1.6;
     margin-bottom: 1rem;
     font-family: 'Nanum Myeongjo', serif;
