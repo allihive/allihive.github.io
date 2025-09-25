@@ -2,6 +2,7 @@ import React from "react"
 import so_long from "../assets/so_long.gif"
 import cub3d from "../assets/cub3d.gif"
 import ft_irc from "../assets/ft_irc.gif"
+import portfolio from "../assets/porfolio.png"
 import ft_transcendence from "../assets/login_transcendence.gif"
 
 import "./Projects.css"
@@ -38,6 +39,7 @@ const Projects: React.FC = () => {
         {
             title: "My Portfolio",
             description: "See how I created my website with React, Vite, Typescript and Figma!",
+			imageUrl: portfolio,
             link: "https://github.com/allihive/allihive.github.io"
         }
     ]
